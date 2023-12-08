@@ -1,2 +1,2 @@
 # matteopendu.github.io
-Portfolio de Mattéo Pendu, étudiant en BTS SIO
+## Portfolio de Mattéo Pendu, étudiant en BTS SIO
