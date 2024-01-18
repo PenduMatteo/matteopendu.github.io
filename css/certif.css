@@ -31,8 +31,8 @@
 }
 
 #cv-intro::after {
-    background: url('images/ligne.png'); /* Dossier "images" est un
-                                            sous-dossier de "css" (à créer) */
+    background: url('images/ligne.png'); 
+                                            
     width: 100%;
     height: 3px;
     margin-top: 15px;
@@ -41,13 +41,13 @@
 }
 .certification {
     background-color: #f4f4f4;
-    border-left: 5px solid red; /* Adjust the color to match the theme */
+    border-left: 5px solid red; 
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
 .certification-title {
-    color: #c00; /* Adjust the color to match the theme */
+    color: #c00; 
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;

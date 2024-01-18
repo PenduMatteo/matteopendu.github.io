@@ -48,7 +48,7 @@
         font-family: 'Arial', sans-serif;
     }
 
-    /* Navbar styling */
+    
 .navbar {
     background-color: #343a40;
     padding: 0.5rem 1rem;
@@ -69,14 +69,14 @@
     color: #fff;
 }
 
-/* Active nav item */
+
 .active .nav-link {
     color: #fff;
     background-color: #555;
     border-radius: 0.25rem;
 }
 
-/* Dropdown menu styling */
+
 .dropdown-menu {
     background-color: #343a40;
 }
@@ -90,14 +90,12 @@
     color: #fff;
 }
 
-/* Button styling for navigation */
 .navbar-toggler {
     background-color: #50575e;
 }
 
-/* FontAwesome icons color */
 .fa {
-    color: #c00; /* Adjust the color to match the theme */
+    color: #c00; 
 }
 
     .jumbotron {
