@@ -1,0 +1,106 @@
+#cv-entete {
+    margin-top: -45px;
+    width: 100%;
+}
+
+#cv-photo {
+    width: 172px;
+    height: 172px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    background: #eee;
+    display: inline-block;
+}
+#cv-photo img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+#cv-intro h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+#cv-intro h1 span {
+    color: rgb(226,0,26);
+}
+
+#cv-intro::after {
+    background: url('images/ligne.png'); 
+                                            
+    width: 100%;
+    height: 3px;
+    margin-top: 15px;
+    content: '';
+    display: block;
+}
+.certification {
+    background-color: #f4f4f4;
+    border-left: 5px solid red; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.certification-title {
+    color: #c00; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.certification-body {
+    font-size: 1rem;
+    color: #666;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #bbb;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.active .nav-link {
+    color: #fff;
+    background-color: #555;
+    border-radius: 0.25rem;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: #bbb;
+}
+
+.dropdown-item:hover {
+    background-color: #50575e;
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #50575e;
+}
+
+.fa {
+    color: #c00;
+}
