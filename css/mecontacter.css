@@ -48,9 +48,57 @@
         font-family: 'Arial', sans-serif;
     }
 
-    .navbar-dark.bg-dark {
-        background-color: #343a40 !important;
-    }
+    /* Navbar styling */
+.navbar {
+    background-color: #343a40;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #bbb;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+/* Active nav item */
+.active .nav-link {
+    color: #fff;
+    background-color: #555;
+    border-radius: 0.25rem;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: #bbb;
+}
+
+.dropdown-item:hover {
+    background-color: #50575e;
+    color: #fff;
+}
+
+/* Button styling for navigation */
+.navbar-toggler {
+    background-color: #50575e;
+}
+
+/* FontAwesome icons color */
+.fa {
+    color: #c00; /* Adjust the color to match the theme */
+}
 
     .jumbotron {
         padding: 2rem 0;
